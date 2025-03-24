@@ -409,3 +409,40 @@ a {
 .marg {
     margin: 20px 0;
 }
+
+.coll-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.bg-white{
+    background-color: white;
+    width: 300px ;
+    margin: 10px 0 ;
+    padding: 10px 10px ;
+
+}
+
+.text-coll{
+    padding: 10px ;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 16px ;
+    
+}
+
+.text-coll:hover {
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+.coll-item div img {
+    width: 90px ;
+}
+
+
